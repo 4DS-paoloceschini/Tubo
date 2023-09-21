@@ -7,4 +7,16 @@ public class Tubo {
         this.raggio=raggio;
         pGreco=3.14;
     }
+
+    public double getpGreco() {
+        return pGreco;
+    }
+
+    public float getAltezza() {
+        return altezza;
+    }
+
+    public float getRaggio() {
+        return raggio;
+    }
 }
