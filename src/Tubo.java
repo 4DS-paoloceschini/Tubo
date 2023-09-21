@@ -8,6 +8,18 @@ public class Tubo {
         pGreco=3.14;
     }
 
+    public void setAltezza(float altezza) {
+        this.altezza = altezza;
+    }
+
+    public void setRaggio(float raggio) {
+        this.raggio = raggio;
+    }
+
+    public void setpGreco(double pGreco) {
+        this.pGreco = pGreco;
+    }
+
     public double getpGreco() {
         return pGreco;
     }
