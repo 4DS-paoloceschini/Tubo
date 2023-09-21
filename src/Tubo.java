@@ -1,8 +1,9 @@
 public class Tubo {
-    private float altezza, raggio;
+    private float altezza;
+    private int raggio;
     private double pGreco;
 
-    public Tubo(float altezza, float raggio){
+    public Tubo(float altezza, int raggio){
         this.altezza=altezza;
         this.raggio=raggio;
         pGreco=3.14;
@@ -12,7 +13,7 @@ public class Tubo {
         this.altezza = altezza;
     }
 
-    public void setRaggio(float raggio) {
+    public void setRaggio(int raggio) {
         this.raggio = raggio;
     }
 
@@ -30,5 +31,11 @@ public class Tubo {
 
     public float getRaggio() {
         return raggio;
+    }
+
+    public double volumeCilindro(){
+        double volume = pGreco*(raggio^2)*altezza;
+
+        return volume;
     }
 }
