@@ -13,6 +13,7 @@ public class Main {
         System.out.println("Nuova altezza: "+t.getAltezza());
         System.out.println("Nuovo raggio: "+t.getRaggio());
 
-
+        System.out.println("Superficie: "+t.superficieCilindro());
+        System.out.println("Volume: "+t.volumeCilindro());
     }
 }
