@@ -7,5 +7,12 @@ public class Main {
 
         System.out.println("Superficie: "+t.superficieCilindro());
         System.out.println("Volume: "+t.volumeCilindro());
+
+        t.setAltezza(27.9f);
+        t.setRaggio(9);
+        System.out.println("Nuova altezza: "+t.getAltezza());
+        System.out.println("Nuovo raggio: "+t.getRaggio());
+
+
     }
 }
