@@ -1,3 +1,5 @@
+import static java.lang.Math.pow;
+
 public class Tubo {
     private float altezza;
     private int raggio;
@@ -34,7 +36,7 @@ public class Tubo {
     }
 
     public double volumeCilindro(){
-        return pGreco*(raggio^2)*altezza;
+        return pGreco*pow(2,raggio)*altezza;
     }
 
     public double superficieCilindro(){
