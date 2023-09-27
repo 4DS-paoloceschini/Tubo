@@ -34,9 +34,7 @@ public class Tubo {
     }
 
     public double volumeCilindro(){
-        double volume = pGreco*(raggio^2)*altezza;
-
-        return volume;
+        return pGreco*(raggio^2)*altezza;
     }
 
     public double superficieCilindro(){
