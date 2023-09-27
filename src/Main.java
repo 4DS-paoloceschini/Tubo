@@ -5,6 +5,7 @@ public class Main {
 
         Tubo t  = new Tubo(altezza, raggio);
 
-
+        System.out.println("Superficie: "+t.superficieCilindro());
+        System.out.println("Volume: "+t.volumeCilindro());
     }
 }
