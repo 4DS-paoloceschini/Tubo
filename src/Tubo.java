@@ -38,4 +38,8 @@ public class Tubo {
 
         return volume;
     }
+
+    public double superficieCilindro(){
+        return 2*pGreco*raggio*altezza;
+    }
 }
